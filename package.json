@@ -1,0 +1,27 @@
+{
+  "name": "trie",
+  "version": "1.0.0",
+  "description": "Trie implementation in JavaScript",
+  "main": "lib/trie.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src -d lib",
+    "test": "mocha --compilers js:babel-register --require babel-polyfill"
+  },
+  "keywords": [
+    "trie",
+    "data",
+    "structure",
+    "dictionary",
+    "word",
+    "list"
+  ],
+  "author": "Reid Mitchell",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
